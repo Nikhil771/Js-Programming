@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JS Average of N Numbers</h1>
+
+<script>
+var start = 11;
+var end = 20;
+var total = 0;
+var count = (end - start) + 1;
+var average = 0;
+
+document.write("Average of numbers between "+start+" to "+end+":<br>");
+for(start = start; start <= end; start++)
+ total += start;
+
+document.write("<br>Total = " +total);
+document.write("<br>Count = " +count);
+average = total / count;
+document.write("<br>Average = " +average);
+</script>
+</body>
+</html>

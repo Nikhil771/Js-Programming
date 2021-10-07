@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="point"></p>
+<p id="point1"></p>
+
+<script>
+var x = document.getElementById("point");
+var y = document.getElementById("point1");
+// var txt = "rsk";
+// (function(){ 
+//   var txt = "Hello world"; 
+//   x.innerText = txt; 
+// })(); 
+
+// --------------------------------
+
+// var bike = {
+//  brand : "Honda",
+//  model : "CB1000R",
+//  detail : function(){
+//   return this.brand + " " + this.model;
+//  }
+// } 
+    
+// x.innerText = bike.detail();
+
+// --------------------------------------
+
+// var bike = {
+//  detail : function(){
+//   return this.brand + " " + this.model;
+//  }
+// }
+
+// var bike1 = {
+//  brand : "Harley Davidson",
+//  model : "FAT BOB",
+// }
+
+// var bike2 = {
+//  brand : "Yamaha",
+//  model : "MT-09",
+// }
+
+// x.innerText = bike.detail.call(bike2);  
+
+// --------------------------------------------
+
+// var bike = {
+//  detail : function(color, price){
+//   return this.brand +" "+ this.model +" "+ color +" "+ price;
+//  }
+// }
+
+// var bike1 = {
+//  brand : "Harley Davidson",
+//  model : "FAT BOB",
+// }
+
+// var bike2 ={
+//  brand : "Yamaha",
+//  model : "MT-09",
+// }
+
+// x.innerText = bike.detail.call(bike2, "Red", "$15592");
+// x.innerText = bike.detail.apply(bike2, ["Red", "$15592"]);
+
+
+// ----------------------------------------------------------------
+
+// var num = 25;
+// var str = "Hello";
+
+// function myFunction(a, b){ 
+//  a = 6; 
+//  b = "Bye";
+// } 
+// myFunction(num, str);
+
+// x.innerHTML = "Num : "+ num + "<br>Str : "+ str;
+
+
+// -------------------------------------------
+
+// var arr = [1, 2, 3];
+// var obj = {brand:"Honda", color:"Red"};
+
+// function myFunction(a, b){ 
+//  a[2] = 6; 
+//  b.color = "green";
+// } 
+// myFunction(arr, obj);
+
+// document.write("arr : "+ arr);
+// document.write("<br>");
+// document.write("obj : "+ JSON.stringify(obj));
+
+// *************************************************
+
+
+// var x = document.getElementById("point");
+
+// function myFunction(){
+//  var txt = "Hello";
+//  function displayText(){
+//   x.innerHTML = txt;
+//  }
+//  displayText();
+// }
+// myFunction();
+
+// var x = document.getElementById("point");
+// var y = document.getElementById("point1");
+
+// function myAdder(x){
+//  return  function(y){
+//   return x + y;
+//  }
+// }
+
+// var add50 = myAdder(50);
+// var add100 = myAdder(100);
+
+// x.innerHTML = add50(25);
+// y.innerHTML = add100(25);
+
+
+// ----------------------------------
+// var txt = "rsk"
+// function myFunction(){
+//  //Becomes GLOBAL variable
+//  txt = "Hello";
+// }
+// myFunction();
+
+// ---------------------------------------------------
+
+
+// var x = document.getElementById("point");
+// var y = document.getElementById("point1");
+// var i = 0;
+
+// if(i == 0){
+//  let i  = 55;
+//  x.innerText = "i = " +i;
+// }
+
+// y.innerText = "i = " +i;
+
+// x.innerHTML = txt;
+
+// ----------------------------------------
+
+
+var i = 0;
+var j = 0;
+
+for(var i = 0; i < 10; i++){
+ //Empty for loop
+}
+
+for(let j = 0; j < 10; j++){
+ //Empty for loop
+}
+
+x.innerText = "i = " +i;
+y.innerText = "j = " +j;
+
+
+</script>
+</body>
+</html>
